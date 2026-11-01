@@ -1,6 +1,6 @@
 {
   "name": "LearnCare AI",
-  "description": "AI-powered educational support and appointment booking platform connecting students and mentors with proactive learning analytics.",
+  "description": "AI-powered educational support the  and appointment booking platform connecting students and mentors with proactive learning analytics.",
   "requestFramePermissions": [],
   "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
 }
