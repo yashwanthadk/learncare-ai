@@ -1,0 +1,1193 @@
+{
+  "users": [
+    {
+      "id": "user-std-1",
+      "name": "Sarah Lin",
+      "email": "sarah.lin@university.edu",
+      "role": "student",
+      "avatar": "/src/assets/images/avatar_student_user_1793511807478.jpg",
+      "phone": "+1 (555) 234-8901",
+      "bio": "Junior undergraduate student in Computer Engineering with an interest in embedded systems and calculus.",
+      "consentGiven": true,
+      "consentDate": "2026-09-01T08:00:00.000Z",
+      "createdAt": "2026-09-01T08:00:00.000Z",
+      "password": "Password123!"
+    },
+    {
+      "id": "user-std-2",
+      "name": "Dev Patel",
+      "email": "dev.patel@university.edu",
+      "role": "student",
+      "avatar": "https://images.unsplash.com/photo-1539571696357-5a69c17a67c6?auto=format&fit=crop&w=300&q=80",
+      "phone": "+1 (555) 789-1234",
+      "bio": "Sophomore Data Science major looking for guidance on advanced data structures and linear algebra.",
+      "consentGiven": true,
+      "consentDate": "2026-09-10T11:20:00.000Z",
+      "createdAt": "2026-09-10T11:20:00.000Z",
+      "password": "Password123!"
+    },
+    {
+      "id": "user-std-3",
+      "name": "Alex Rivera",
+      "email": "alex.rivera@university.edu",
+      "role": "student",
+      "avatar": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=300&q=80",
+      "phone": "+1 (555) 456-7890",
+      "bio": "Freshman exploring electrical engineering and physics foundation coursework.",
+      "consentGiven": true,
+      "consentDate": "2026-09-15T09:30:00.000Z",
+      "createdAt": "2026-09-15T09:30:00.000Z",
+      "password": "Password123!"
+    },
+    {
+      "id": "user-edu-1",
+      "name": "Prof. Elena Rostova",
+      "email": "elena.rostova@learncare.edu",
+      "role": "educator",
+      "avatar": "/src/assets/images/avatar_educator_female_1793511807951.jpg",
+      "phone": "+1 (555) 912-3456",
+      "bio": "Professor of Applied Mathematics with 14+ years teaching differential equations, multivariable calculus, and mathematical modeling.",
+      "consentGiven": true,
+      "createdAt": "2026-08-15T10:00:00.000Z",
+      "password": "Password123!"
+    },
+    {
+      "id": "user-edu-2",
+      "name": "Dr. Marcus Vance",
+      "email": "marcus.vance@learncare.edu",
+      "role": "educator",
+      "avatar": "/src/assets/images/avatar_educator_male_1793511808855.jpg",
+      "phone": "+1 (555) 987-6543",
+      "bio": "Lead CS Lecturer specializing in Algorithm Design, Distributed Systems, and Academic Recovery strategies for engineering students.",
+      "consentGiven": true,
+      "createdAt": "2026-08-16T12:00:00.000Z",
+      "password": "Password123!"
+    },
+    {
+      "id": "user-edu-3",
+      "name": "Dr. Tariq Al-Mansoor",
+      "email": "tariq.mansoor@learncare.edu",
+      "role": "educator",
+      "avatar": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?auto=format&fit=crop&w=300&q=80",
+      "phone": "+1 (555) 321-6540",
+      "bio": "Theoretical and Applied Physics specialist focused on classical mechanics, electromagnetism, and conceptual problem solving.",
+      "consentGiven": true,
+      "createdAt": "2026-08-20T14:30:00.000Z",
+      "password": "Password123!"
+    },
+    {
+      "id": "user-edu-4",
+      "name": "Sarah Jenkins, M.Ed.",
+      "email": "sarah.jenkins@learncare.edu",
+      "role": "educator",
+      "avatar": "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?auto=format&fit=crop&w=300&q=80",
+      "phone": "+1 (555) 888-9900",
+      "bio": "Academic Strategy and Learning Specialist. Specializes in time management, cognitive study patterns, and exam anxiety mitigation.",
+      "consentGiven": true,
+      "createdAt": "2026-08-22T09:15:00.000Z",
+      "password": "Password123!"
+    },
+    {
+      "id": "user-adm-1",
+      "name": "Eleanor Ward",
+      "email": "eleanor.ward@learncare.edu",
+      "role": "admin",
+      "avatar": "https://images.unsplash.com/photo-1580489944761-15a19d654956?auto=format&fit=crop&w=300&q=80",
+      "phone": "+1 (555) 444-1122",
+      "bio": "Director of Academic Support & Student Success Operations at LearnCare AI.",
+      "consentGiven": true,
+      "createdAt": "2026-07-01T08:00:00.000Z",
+      "password": "Password123!"
+    },
+    {
+      "id": "user-stu-1793513121233",
+      "name": "Jordan Lee",
+      "email": "jordan.lee@university.edu",
+      "role": "student",
+      "password": "BrandNewPassword88!",
+      "avatar": "/src/assets/images/avatar_student_user_1793511807478.jpg",
+      "consentGiven": true,
+      "consentDate": "2026-11-01T06:05:21.233Z",
+      "createdAt": "2026-11-01T06:05:21.233Z"
+    }
+  ],
+  "studentProfiles": [
+    {
+      "userId": "user-std-1",
+      "studentId": "STU-2026-8812",
+      "gradeLevel": "Junior (Year 3)",
+      "major": "Computer Engineering",
+      "currentSemester": "Fall 2026",
+      "targetGPA": 3.8,
+      "currentGPA": 3.42,
+      "enrolledCourses": [
+        "MATH 241: Multivariable Calculus",
+        "CS 374: Algorithms & Complexity",
+        "ECE 220: Computer Systems",
+        "PHYS 212: University Physics II"
+      ],
+      "learningGoals": [
+        "Improve Calculus exam scores",
+        "Master dynamic programming",
+        "Establish consistent weekly study cadence"
+      ],
+      "difficultySubjects": [
+        "Multivariable Calculus",
+        "Dynamic Programming"
+      ]
+    },
+    {
+      "userId": "user-std-2",
+      "studentId": "STU-2026-9043",
+      "gradeLevel": "Sophomore (Year 2)",
+      "major": "Data Science & Statistics",
+      "currentSemester": "Fall 2026",
+      "targetGPA": 3.6,
+      "currentGPA": 2.95,
+      "enrolledCourses": [
+        "CS 374: Algorithms & Complexity",
+        "STAT 400: Mathematical Statistics",
+        "MATH 225: Matrix Theory"
+      ],
+      "learningGoals": [
+        "Catch up on missed problem sets",
+        "Prepare for midterm revision",
+        "Overcome study disengagement"
+      ],
+      "difficultySubjects": [
+        "Algorithms & Complexity",
+        "Matrix Theory"
+      ]
+    },
+    {
+      "userId": "user-std-3",
+      "studentId": "STU-2026-7219",
+      "gradeLevel": "Freshman (Year 1)",
+      "major": "Electrical Engineering",
+      "currentSemester": "Fall 2026",
+      "targetGPA": 3.75,
+      "currentGPA": 3.78,
+      "enrolledCourses": [
+        "MATH 241: Multivariable Calculus",
+        "PHYS 211: Classical Mechanics",
+        "ENG 100: Engineering Orientation"
+      ],
+      "learningGoals": [
+        "Maintain high academic momentum",
+        "Explore research opportunities"
+      ],
+      "difficultySubjects": []
+    },
+    {
+      "userId": "user-stu-1793513121233",
+      "studentId": "STU-2026-9733",
+      "gradeLevel": "Sophomore",
+      "major": "Biomedical Engineering",
+      "currentSemester": "Fall 2026",
+      "targetGPA": 3.75,
+      "currentGPA": 3.5,
+      "enrolledCourses": [
+        "MATH 241: Multivariable Calculus",
+        "CS 374: Algorithms & Complexity"
+      ],
+      "learningGoals": [
+        "Improve exam scores and understanding"
+      ],
+      "difficultySubjects": []
+    }
+  ],
+  "educatorProfiles": [
+    {
+      "userId": "user-edu-1",
+      "title": "Professor of Applied Mathematics",
+      "subjectSpecializations": [
+        "Multivariable Calculus",
+        "Differential Equations",
+        "Linear Algebra",
+        "Numerical Analysis"
+      ],
+      "qualifications": [
+        "Ph.D. in Applied Mathematics (Cambridge)",
+        "M.Sc. Pure Mathematics (ETH Zurich)",
+        "Senior Fellow of Higher Education Academy"
+      ],
+      "experienceYears": 14,
+      "bio": "Dedicated to helping students conquer complex mathematical abstraction through intuitive visual models and structured problem-solving frameworks.",
+      "rating": 4.95,
+      "reviewCount": 142,
+      "isVerified": true,
+      "isActive": true,
+      "availableSlotDurations": [
+        15,
+        30,
+        45,
+        60
+      ],
+      "weeklyAvailability": [
+        {
+          "day": "Monday",
+          "slots": [
+            "09:00 AM",
+            "10:00 AM",
+            "11:00 AM",
+            "02:00 PM",
+            "03:00 PM"
+          ]
+        },
+        {
+          "day": "Tuesday",
+          "slots": [
+            "10:00 AM",
+            "11:30 AM",
+            "02:00 PM",
+            "04:00 PM"
+          ]
+        },
+        {
+          "day": "Wednesday",
+          "slots": [
+            "09:00 AM",
+            "10:00 AM",
+            "01:30 PM",
+            "03:00 PM",
+            "04:30 PM"
+          ]
+        },
+        {
+          "day": "Thursday",
+          "slots": [
+            "11:00 AM",
+            "02:00 PM",
+            "03:30 PM",
+            "05:00 PM"
+          ]
+        },
+        {
+          "day": "Friday",
+          "slots": [
+            "09:30 AM",
+            "11:00 AM",
+            "01:00 PM",
+            "02:30 PM"
+          ]
+        }
+      ]
+    },
+    {
+      "userId": "user-edu-2",
+      "title": "Associate Professor & Algorithm Specialist",
+      "subjectSpecializations": [
+        "Algorithms & Complexity",
+        "Data Structures",
+        "Operating Systems",
+        "System Architecture"
+      ],
+      "qualifications": [
+        "Ph.D. in Computer Science (Stanford)",
+        "B.S. in Electrical Engineering & CS (UC Berkeley)",
+        "ACM Distinguished Educator Award"
+      ],
+      "experienceYears": 11,
+      "bio": "Focuses on unblocking conceptual hurdles in algorithmic thinking, asymptotic analysis, and recursive problem modeling. Emphasizes patient, step-by-step guidance.",
+      "rating": 4.92,
+      "reviewCount": 188,
+      "isVerified": true,
+      "isActive": true,
+      "availableSlotDurations": [
+        15,
+        30,
+        45,
+        60
+      ],
+      "weeklyAvailability": [
+        {
+          "day": "Monday",
+          "slots": [
+            "10:00 AM",
+            "11:00 AM",
+            "01:00 PM",
+            "02:00 PM",
+            "04:00 PM"
+          ]
+        },
+        {
+          "day": "Tuesday",
+          "slots": [
+            "09:00 AM",
+            "10:30 AM",
+            "01:00 PM",
+            "03:00 PM"
+          ]
+        },
+        {
+          "day": "Thursday",
+          "slots": [
+            "10:00 AM",
+            "11:00 AM",
+            "02:00 PM",
+            "03:00 PM",
+            "04:30 PM"
+          ]
+        },
+        {
+          "day": "Friday",
+          "slots": [
+            "10:00 AM",
+            "11:30 AM",
+            "02:00 PM"
+          ]
+        }
+      ]
+    },
+    {
+      "userId": "user-edu-3",
+      "title": "Senior Lecturer in Physics",
+      "subjectSpecializations": [
+        "Classical Mechanics",
+        "Electromagnetism",
+        "Quantum Physics",
+        "Engineering Statics"
+      ],
+      "qualifications": [
+        "Ph.D. in Physics (Oxford)",
+        "Postdoctoral Fellow (MIT)",
+        "Excellence in STEM Mentorship Award"
+      ],
+      "experienceYears": 9,
+      "bio": "Passionate about translating physical concepts into clear free-body diagrams and intuitive math connections. Specializes in doubt clearing and exam prep.",
+      "rating": 4.88,
+      "reviewCount": 96,
+      "isVerified": true,
+      "isActive": true,
+      "availableSlotDurations": [
+        30,
+        45,
+        60
+      ],
+      "weeklyAvailability": [
+        {
+          "day": "Tuesday",
+          "slots": [
+            "09:00 AM",
+            "10:00 AM",
+            "11:00 AM",
+            "02:00 PM",
+            "03:30 PM"
+          ]
+        },
+        {
+          "day": "Wednesday",
+          "slots": [
+            "10:00 AM",
+            "11:00 AM",
+            "01:00 PM",
+            "03:00 PM"
+          ]
+        },
+        {
+          "day": "Thursday",
+          "slots": [
+            "09:00 AM",
+            "10:30 AM",
+            "02:00 PM",
+            "04:00 PM"
+          ]
+        }
+      ]
+    },
+    {
+      "userId": "user-edu-4",
+      "title": "Learning Specialist & Academic Counselor",
+      "subjectSpecializations": [
+        "Study Planning",
+        "Learning Difficulties Support",
+        "Exam Anxiety Coaching",
+        "Cognitive Study Strategies"
+      ],
+      "qualifications": [
+        "M.Ed. in Cognitive Learning Science (Harvard GSE)",
+        "Certified Educational Therapist (AET)",
+        "B.A. in Psychology"
+      ],
+      "experienceYears": 8,
+      "bio": "Specializes in helping neurodiverse learners, overwhelmed students, and those recovering from mid-semester slumps build sustainable academic habits.",
+      "rating": 4.97,
+      "reviewCount": 215,
+      "isVerified": true,
+      "isActive": true,
+      "availableSlotDurations": [
+        15,
+        30,
+        45,
+        60
+      ],
+      "weeklyAvailability": [
+        {
+          "day": "Monday",
+          "slots": [
+            "09:00 AM",
+            "10:00 AM",
+            "11:00 AM",
+            "01:00 PM",
+            "02:00 PM",
+            "03:00 PM"
+          ]
+        },
+        {
+          "day": "Wednesday",
+          "slots": [
+            "09:00 AM",
+            "10:00 AM",
+            "11:00 AM",
+            "01:00 PM",
+            "02:00 PM"
+          ]
+        },
+        {
+          "day": "Thursday",
+          "slots": [
+            "10:00 AM",
+            "11:00 AM",
+            "02:00 PM",
+            "03:00 PM",
+            "04:00 PM"
+          ]
+        },
+        {
+          "day": "Friday",
+          "slots": [
+            "09:00 AM",
+            "10:30 AM",
+            "01:00 PM",
+            "02:30 PM"
+          ]
+        }
+      ]
+    }
+  ],
+  "appointments": [
+    {
+      "id": "LC-APPT-842911",
+      "studentId": "user-std-1",
+      "studentName": "Sarah Lin",
+      "studentEmail": "sarah.lin@university.edu",
+      "educatorId": "user-edu-1",
+      "educatorName": "Prof. Elena Rostova",
+      "educatorTitle": "Professor of Applied Mathematics",
+      "educatorAvatar": "/src/assets/images/avatar_educator_female_1793511807951.jpg",
+      "appointmentType": "Learning Difficulties Support",
+      "subject": "Multivariable Calculus",
+      "date": "2026-11-04",
+      "timeSlot": "10:00 AM",
+      "durationMinutes": 45,
+      "reason": "Struggling with triple integrals in spherical coordinates and Green theorem proofs.",
+      "additionalNotes": "Already attempted textbook problem set 8 but got stuck on problem 4.",
+      "status": "Completed",
+      "meetingLink": "https://meet.learncare.ai/room-mth-842911",
+      "hasFeedback": false,
+      "hasSessionNotes": false,
+      "createdAt": "2026-10-28T14:22:00.000Z",
+      "updatedAt": "2026-11-01T05:58:37.755Z"
+    },
+    {
+      "id": "LC-APPT-731902",
+      "studentId": "user-std-1",
+      "studentName": "Sarah Lin",
+      "studentEmail": "sarah.lin@university.edu",
+      "educatorId": "user-edu-2",
+      "educatorName": "Dr. Marcus Vance",
+      "educatorTitle": "Associate Professor & Algorithm Specialist",
+      "educatorAvatar": "/src/assets/images/avatar_educator_male_1793511808855.jpg",
+      "appointmentType": "Subject Doubt Clearing",
+      "subject": "Algorithms & Complexity",
+      "date": "2026-10-21",
+      "timeSlot": "02:00 PM",
+      "durationMinutes": 30,
+      "reason": "Dynamic programming state transitions for 2D grid pathing.",
+      "additionalNotes": "Helped clarify memoization vs bottom-up tabulation.",
+      "status": "Completed",
+      "meetingLink": "https://meet.learncare.ai/room-cs-731902",
+      "hasFeedback": true,
+      "hasSessionNotes": true,
+      "createdAt": "2026-10-18T09:12:00.000Z",
+      "updatedAt": "2026-10-21T14:35:00.000Z"
+    },
+    {
+      "id": "LC-APPT-904128",
+      "studentId": "user-std-2",
+      "studentName": "Dev Patel",
+      "studentEmail": "dev.patel@university.edu",
+      "educatorId": "user-edu-4",
+      "educatorName": "Sarah Jenkins, M.Ed.",
+      "educatorTitle": "Learning Specialist & Academic Counselor",
+      "educatorAvatar": "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?auto=format&fit=crop&w=300&q=80",
+      "appointmentType": "Study Planning",
+      "subject": "Academic Strategy & Re-engagement",
+      "date": "2026-11-05",
+      "timeSlot": "01:00 PM",
+      "durationMinutes": 45,
+      "reason": "Fell behind in assignments due to mid-semester burnout; need an achievable catch-up plan.",
+      "status": "Confirmed",
+      "meetingLink": "https://meet.learncare.ai/room-adv-904128",
+      "hasFeedback": false,
+      "hasSessionNotes": false,
+      "createdAt": "2026-10-29T16:04:00.000Z",
+      "updatedAt": "2026-10-29T16:45:00.000Z"
+    },
+    {
+      "id": "LC-APPT-512890",
+      "studentId": "user-std-2",
+      "studentName": "Dev Patel",
+      "studentEmail": "dev.patel@university.edu",
+      "educatorId": "user-edu-2",
+      "educatorName": "Dr. Marcus Vance",
+      "educatorTitle": "Associate Professor & Algorithm Specialist",
+      "educatorAvatar": "/src/assets/images/avatar_educator_male_1793511808855.jpg",
+      "appointmentType": "Performance Improvement",
+      "subject": "Algorithms & Complexity",
+      "date": "2026-11-09",
+      "timeSlot": "11:00 AM",
+      "durationMinutes": 30,
+      "reason": "Missed Quiz 3 and struggling with graph shortest path proofs.",
+      "status": "Pending",
+      "hasFeedback": false,
+      "hasSessionNotes": false,
+      "createdAt": "2026-10-31T20:15:00.000Z",
+      "updatedAt": "2026-10-31T20:15:00.000Z"
+    },
+    {
+      "studentId": "user-edu-1",
+      "studentName": "Prof. Elena Rostova",
+      "studentEmail": "elena.rostova@learncare.edu",
+      "educatorId": "user-edu-1",
+      "educatorName": "Prof. Elena Rostova",
+      "educatorTitle": "Professor of Applied Mathematics",
+      "educatorAvatar": "/src/assets/images/avatar_educator_female_1793511807951.jpg",
+      "appointmentType": "Learning Difficulties Support",
+      "subject": "Multivariable Calculus",
+      "date": "2026-11-02",
+      "timeSlot": "03:00 PM",
+      "durationMinutes": 30,
+      "reason": "study",
+      "additionalNotes": "",
+      "status": "Confirmed",
+      "id": "LC-APPT-411034",
+      "meetingLink": "https://meet.learncare.ai/room-lc-appt-411034",
+      "createdAt": "2026-11-01T05:59:19.604Z",
+      "updatedAt": "2026-11-01T05:59:19.604Z"
+    }
+  ],
+  "analytics": {
+    "user-std-1": {
+      "studentId": "user-std-1",
+      "studentName": "Sarah Lin",
+      "overallRisk": "Moderate Concern",
+      "riskConfidence": 87,
+      "assignmentCompletionRate": 78,
+      "assessmentAverage": 72,
+      "assessmentTrend": "declining",
+      "weeklyParticipationHours": 3.4,
+      "missedActivitiesCount": 2,
+      "summaryNote": "Assessment scores have dropped 18% over the past 3 weeks in Multivariable Calculus, paired with two late problem set submissions.",
+      "contributingFactors": [
+        {
+          "factor": "Decline in recent quiz scores",
+          "impact": "high",
+          "detail": "Calculus Quiz 4 (62%) and Quiz 5 (68%) dropped from an early average of 88%."
+        },
+        {
+          "factor": "Reduced assignment timeliness",
+          "impact": "medium",
+          "detail": "Homework #6 was submitted 36 hours late; Homework #7 unsubmitted draft."
+        },
+        {
+          "factor": "Lower asynchronous course participation",
+          "impact": "low",
+          "detail": "Course LMS discussion forum visits decreased from 4.2x/wk to 1.1x/wk."
+        }
+      ],
+      "suggestedInterventions": [
+        "Encourage a 30–45 minute targeted doubt clearing session on multivariable integration.",
+        "Recommend reviewing foundational polar and spherical coordinate transform guides.",
+        "Suggest breaking down large homework problem sets into smaller 25-minute study intervals."
+      ],
+      "weeklyTrends": [
+        {
+          "week": "W1",
+          "score": 92,
+          "completion": 100,
+          "participation": 5.2
+        },
+        {
+          "week": "W2",
+          "score": 88,
+          "completion": 100,
+          "participation": 4.8
+        },
+        {
+          "week": "W3",
+          "score": 84,
+          "completion": 90,
+          "participation": 4.1
+        },
+        {
+          "week": "W4",
+          "score": 76,
+          "completion": 80,
+          "participation": 3.6
+        },
+        {
+          "week": "W5",
+          "score": 68,
+          "completion": 70,
+          "participation": 3.1
+        },
+        {
+          "week": "W6",
+          "score": 72,
+          "completion": 78,
+          "participation": 3.4
+        }
+      ],
+      "subjectScores": [
+        {
+          "subject": "Multivariable Calculus",
+          "score": 68,
+          "trend": "down"
+        },
+        {
+          "subject": "Algorithms & Complexity",
+          "score": 81,
+          "trend": "up"
+        },
+        {
+          "subject": "Computer Systems",
+          "score": 86,
+          "trend": "same"
+        },
+        {
+          "subject": "University Physics II",
+          "score": 74,
+          "trend": "down"
+        }
+      ],
+      "lastAnalyzed": "2026-10-31T18:00:00.000Z"
+    },
+    "user-std-2": {
+      "studentId": "user-std-2",
+      "studentName": "Dev Patel",
+      "overallRisk": "High Concern",
+      "riskConfidence": 92,
+      "assignmentCompletionRate": 54,
+      "assessmentAverage": 61,
+      "assessmentTrend": "declining",
+      "weeklyParticipationHours": 1.8,
+      "missedActivitiesCount": 4,
+      "summaryNote": "Multiple consecutive missed activities and a steep reduction in active platform hours indicate critical risk of academic disengagement.",
+      "contributingFactors": [
+        {
+          "factor": "Missed academic milestones",
+          "impact": "high",
+          "detail": "Missed 3 laboratory problem sets and 1 required mid-term milestone check."
+        },
+        {
+          "factor": "Sharp drop in weekly engagement",
+          "impact": "high",
+          "detail": "Active study platform hours decreased by 68% over the past month."
+        },
+        {
+          "factor": "Low assessment results in Algorithms",
+          "impact": "medium",
+          "detail": "Recent test score of 52% indicates critical unaddressed prerequisite gaps."
+        }
+      ],
+      "suggestedInterventions": [
+        "Immediate outreach by an academic mentor or counselor (Sarah Jenkins, M.Ed.).",
+        "Formulate a compassionate, realistic catch-up schedule with reduced cognitive overload.",
+        "Check in on potential non-academic barriers or study burnout."
+      ],
+      "weeklyTrends": [
+        {
+          "week": "W1",
+          "score": 82,
+          "completion": 90,
+          "participation": 4.2
+        },
+        {
+          "week": "W2",
+          "score": 78,
+          "completion": 85,
+          "participation": 3.8
+        },
+        {
+          "week": "W3",
+          "score": 70,
+          "completion": 70,
+          "participation": 2.9
+        },
+        {
+          "week": "W4",
+          "score": 63,
+          "completion": 55,
+          "participation": 2.1
+        },
+        {
+          "week": "W5",
+          "score": 58,
+          "completion": 50,
+          "participation": 1.6
+        },
+        {
+          "week": "W6",
+          "score": 61,
+          "completion": 54,
+          "participation": 1.8
+        }
+      ],
+      "subjectScores": [
+        {
+          "subject": "Algorithms & Complexity",
+          "score": 58,
+          "trend": "down"
+        },
+        {
+          "subject": "Mathematical Statistics",
+          "score": 64,
+          "trend": "down"
+        },
+        {
+          "subject": "Matrix Theory",
+          "score": 62,
+          "trend": "down"
+        }
+      ],
+      "lastAnalyzed": "2026-10-31T18:00:00.000Z"
+    },
+    "user-std-3": {
+      "studentId": "user-std-3",
+      "studentName": "Alex Rivera",
+      "overallRisk": "Low Concern",
+      "riskConfidence": 95,
+      "assignmentCompletionRate": 98,
+      "assessmentAverage": 92,
+      "assessmentTrend": "improving",
+      "weeklyParticipationHours": 6.2,
+      "missedActivitiesCount": 0,
+      "summaryNote": "Consistently high engagement across all courses with solid assignment completion and proactive participation.",
+      "contributingFactors": [
+        {
+          "factor": "Punctual submission streak",
+          "impact": "low",
+          "detail": "100% of coursework delivered on time across all enrolled modules."
+        },
+        {
+          "factor": "High assessment scores",
+          "impact": "low",
+          "detail": "Recent exam scores of 94% and 91% show strong conceptual mastery."
+        }
+      ],
+      "suggestedInterventions": [
+        "Provide enrichment opportunities and advanced reading in electromagnetic field theory.",
+        "Encourage peer mentoring or research project exploration."
+      ],
+      "weeklyTrends": [
+        {
+          "week": "W1",
+          "score": 88,
+          "completion": 95,
+          "participation": 5.5
+        },
+        {
+          "week": "W2",
+          "score": 90,
+          "completion": 100,
+          "participation": 5.8
+        },
+        {
+          "week": "W3",
+          "score": 91,
+          "completion": 100,
+          "participation": 6
+        },
+        {
+          "week": "W4",
+          "score": 93,
+          "completion": 100,
+          "participation": 6.1
+        },
+        {
+          "week": "W5",
+          "score": 92,
+          "completion": 100,
+          "participation": 6.4
+        },
+        {
+          "week": "W6",
+          "score": 94,
+          "completion": 98,
+          "participation": 6.2
+        }
+      ],
+      "subjectScores": [
+        {
+          "subject": "Multivariable Calculus",
+          "score": 92,
+          "trend": "up"
+        },
+        {
+          "subject": "Classical Mechanics",
+          "score": 95,
+          "trend": "up"
+        },
+        {
+          "subject": "Engineering Orientation",
+          "score": 98,
+          "trend": "same"
+        }
+      ],
+      "lastAnalyzed": "2026-10-31T18:00:00.000Z"
+    },
+    "user-stu-1793513121233": {
+      "studentId": "user-stu-1793513121233",
+      "studentName": "Jordan Lee",
+      "overallRisk": "Low Concern",
+      "riskConfidence": 85,
+      "assignmentCompletionRate": 90,
+      "assessmentAverage": 85,
+      "assessmentTrend": "stable",
+      "weeklyParticipationHours": 4.5,
+      "missedActivitiesCount": 0,
+      "summaryNote": "Initial baseline profile created. Activity will calibrate over the first 2 weeks.",
+      "contributingFactors": [],
+      "suggestedInterventions": [
+        "Connect with an academic mentor to establish early goals."
+      ],
+      "weeklyTrends": [
+        {
+          "week": "W1",
+          "score": 85,
+          "completion": 90,
+          "participation": 4.5
+        }
+      ],
+      "subjectScores": [
+        {
+          "subject": "Multivariable Calculus",
+          "score": 85,
+          "trend": "same"
+        }
+      ],
+      "lastAnalyzed": "2026-11-01T06:05:21.234Z"
+    }
+  },
+  "recommendations": [
+    {
+      "id": "rec-1",
+      "studentId": "user-std-1",
+      "subject": "Multivariable Calculus",
+      "category": "educator_consultation",
+      "title": "Book a 30-Minute Doubt Clearing in Triple Integrals",
+      "description": "Your recent scores in Calculus Module 4 indicate confusion in spherical and cylindrical conversions. Connecting with Prof. Rostova will clarify the coordinate transformations.",
+      "rationale": "Analysis of Quiz 4 and Homework 6 reveals repeated calculation errors when converting Jacobian determinants.",
+      "suggestedDuration": "30 minutes",
+      "recommendedEducatorId": "user-edu-1",
+      "recommendedEducatorName": "Prof. Elena Rostova",
+      "actionLabel": "Book Session with Prof. Rostova",
+      "actionType": "book_appointment",
+      "priority": "urgent",
+      "createdAt": "2026-10-31T12:00:00.000Z"
+    },
+    {
+      "id": "rec-2",
+      "studentId": "user-std-1",
+      "subject": "Multivariable Calculus",
+      "category": "resource_revision",
+      "title": "Review Visual Guide: Vector Fields & Divergence",
+      "description": "A 15-minute visual simulation with step-by-step vector calculations designed to reinforce flux and curl intuition before your upcoming midterm.",
+      "rationale": "Students who review the interactive vector module show a 19% improvement on subsequent boundary value problems.",
+      "actionLabel": "Open Interactive Guide",
+      "actionType": "view_resource",
+      "priority": "recommended",
+      "createdAt": "2026-10-30T09:00:00.000Z"
+    },
+    {
+      "id": "rec-3",
+      "studentId": "user-std-1",
+      "subject": "Algorithms & Complexity",
+      "category": "study_strategy",
+      "title": "Adopt 25-Min Focused Pomodoro Blocks for Dynamic Programming",
+      "description": "Break algorithmic state-space analysis into discrete steps: 1) Identify subproblems, 2) Write recurrence, 3) Check base cases.",
+      "rationale": "Mitigates the cognitive fatigue observed during multi-hour uninterrupted homework sessions.",
+      "actionLabel": "View Study Plan",
+      "actionType": "review_material",
+      "priority": "optional",
+      "createdAt": "2026-10-27T15:30:00.000Z"
+    },
+    {
+      "id": "rec-4",
+      "studentId": "user-std-2",
+      "subject": "Academic Strategy & Re-engagement",
+      "category": "educator_consultation",
+      "title": "Schedule Catch-Up Strategy Session with Sarah Jenkins",
+      "description": "Recovering from late coursework is much easier with an empathetic coach who can help reprioritize your deadlines and liaise with course staff.",
+      "rationale": "Current completion rate (54%) requires structured scaffolding to prevent mid-semester disengagement.",
+      "suggestedDuration": "45 minutes",
+      "recommendedEducatorId": "user-edu-4",
+      "recommendedEducatorName": "Sarah Jenkins, M.Ed.",
+      "actionLabel": "Book Strategy Session",
+      "actionType": "book_appointment",
+      "priority": "urgent",
+      "createdAt": "2026-10-31T10:00:00.000Z"
+    }
+  ],
+  "activities": [],
+  "resources": [
+    {
+      "id": "res-1",
+      "title": "Visual Intuition for Triple Integrals & Jacobians",
+      "subject": "Multivariable Calculus",
+      "type": "interactive_module",
+      "description": "3D interactive coordinate transforms demonstrating why r and rho^2 sin(phi) appear in cylindrical and spherical volume elements.",
+      "duration": "20 mins",
+      "level": "Intermediate",
+      "tags": [
+        "Calculus",
+        "Visual Math",
+        "Integrals"
+      ]
+    },
+    {
+      "id": "res-2",
+      "title": "Dynamic Programming: From Recursion to Memoization Table",
+      "subject": "Algorithms & Complexity",
+      "type": "guide",
+      "description": "A structured blueprint for deriving DP recurrence relations, avoiding common off-by-one index traps, and analyzing time/space trade-offs.",
+      "duration": "25 mins",
+      "level": "Intermediate",
+      "tags": [
+        "Algorithms",
+        "Computer Science",
+        "Dynamic Programming"
+      ]
+    },
+    {
+      "id": "res-3",
+      "title": "Managing Academic Workload & Preventing Burnout",
+      "subject": "Academic Strategy",
+      "type": "guide",
+      "description": "Evidence-based cognitive study habits, pacing techniques, and communication scripts for requesting assignment extensions when needed.",
+      "duration": "15 mins",
+      "level": "Beginner",
+      "tags": [
+        "Study Skills",
+        "Mental Health",
+        "Time Management"
+      ]
+    },
+    {
+      "id": "res-4",
+      "title": "Electromagnetic Field Theory Problem-Solving Blueprint",
+      "subject": "University Physics II",
+      "type": "practice_sheet",
+      "description": "Step-by-step breakdown of Gauss Law and Ampere Law surface integral evaluations with worked solutions and common errors.",
+      "duration": "35 mins",
+      "level": "Advanced",
+      "tags": [
+        "Physics",
+        "Electromagnetism",
+        "Problem Solving"
+      ]
+    },
+    {
+      "id": "res-5",
+      "title": "Linear Algebra: Eigenvalues & Matrix Diagonalization",
+      "subject": "Linear Algebra",
+      "type": "video_lecture",
+      "description": "Visual geometric perspective on eigenvalues as directional stretch factors and their critical applications in data science and PCA.",
+      "duration": "30 mins",
+      "level": "Intermediate",
+      "tags": [
+        "Math",
+        "Linear Algebra",
+        "Data Science"
+      ]
+    }
+  ],
+  "sessionNotes": [
+    {
+      "id": "note-1",
+      "appointmentId": "LC-APPT-731902",
+      "studentId": "user-std-1",
+      "studentName": "Sarah Lin",
+      "educatorId": "user-edu-2",
+      "educatorName": "Dr. Marcus Vance",
+      "subject": "Algorithms & Complexity",
+      "sessionDate": "2026-10-21",
+      "keyObservations": "Sarah has strong fundamentals in recursion, but struggles when transitioning from exponential recursion trees to tabular cache arrays. Identified hesitation around index boundary initialization.",
+      "recommendationsGiven": "Advised Sarah to sketch the 2D grid table with explicit row/column labels before typing code. Assigned 2 practice problems on LeetCode/HackerRank (Longest Common Subsequence).",
+      "nextSteps": "Complete problem #2 and bring solution draft to office hours or next follow-up appointment.",
+      "followUpRequired": false,
+      "createdAt": "2026-10-21T15:00:00.000Z"
+    }
+  ],
+  "feedbacks": [
+    {
+      "id": "fb-1",
+      "appointmentId": "LC-APPT-731902",
+      "studentId": "user-std-1",
+      "studentName": "Sarah Lin",
+      "educatorId": "user-edu-2",
+      "educatorName": "Dr. Marcus Vance",
+      "rating": 5,
+      "helpfulnessCategory": "Exceptional Concept Clarity",
+      "comments": "Dr. Vance drew out the subproblem recurrence on a whiteboard and explained the base conditions so clearly. I finally understand DP tables!",
+      "createdAt": "2026-10-21T16:15:00.000Z"
+    }
+  ],
+  "notifications": [
+    {
+      "id": "notif-1793512759604-2",
+      "recipientId": "user-edu-1",
+      "recipientRole": "educator",
+      "title": "New Appointment Request",
+      "message": "Prof. Elena Rostova booked a 30-minute Learning Difficulties Support session for 2026-11-02 at 03:00 PM.",
+      "type": "appointment",
+      "read": false,
+      "createdAt": "2026-11-01T05:59:19.604Z",
+      "link": "/dashboard/educator/appointments"
+    },
+    {
+      "id": "notif-1793512759604-1",
+      "recipientId": "user-edu-1",
+      "recipientRole": "student",
+      "title": "Appointment Scheduled",
+      "message": "Your appointment with Prof. Elena Rostova on 2026-11-02 at 03:00 PM is now Confirmed.",
+      "type": "appointment",
+      "read": false,
+      "createdAt": "2026-11-01T05:59:19.604Z",
+      "link": "/dashboard/appointments"
+    },
+    {
+      "id": "notif-1793512717755",
+      "recipientId": "user-std-1",
+      "recipientRole": "student",
+      "title": "Appointment Completed",
+      "message": "Your session with Prof. Elena Rostova on 2026-11-04 at 10:00 AM has been marked as Completed.",
+      "type": "appointment",
+      "read": false,
+      "createdAt": "2026-11-01T05:58:37.755Z",
+      "link": "/dashboard/appointments"
+    },
+    {
+      "id": "notif-1",
+      "recipientId": "user-std-1",
+      "recipientRole": "student",
+      "title": "Appointment Confirmed",
+      "message": "Your upcoming session with Prof. Elena Rostova on Multivariable Calculus is confirmed for Monday, Nov 4 at 10:00 AM.",
+      "type": "appointment",
+      "read": false,
+      "createdAt": "2026-10-28T15:10:00.000Z",
+      "link": "/dashboard/appointments"
+    },
+    {
+      "id": "notif-2",
+      "recipientId": "user-std-1",
+      "recipientRole": "student",
+      "title": "New AI Learning Recommendation",
+      "message": "AI analyzed your recent quiz scores in Calculus and recommended a 30-min doubt clearing session on triple integration.",
+      "type": "recommendation",
+      "read": false,
+      "createdAt": "2026-10-31T12:00:00.000Z",
+      "link": "/dashboard/recommendations"
+    },
+    {
+      "id": "notif-3",
+      "recipientId": "user-edu-1",
+      "recipientRole": "educator",
+      "title": "New Booking Confirmed",
+      "message": "Sarah Lin booked a 45-minute Learning Difficulties Support session with you on Nov 4 at 10:00 AM.",
+      "type": "appointment",
+      "read": false,
+      "createdAt": "2026-10-28T14:22:00.000Z",
+      "link": "/dashboard/educator/appointments"
+    },
+    {
+      "id": "notif-4",
+      "recipientId": "user-edu-2",
+      "recipientRole": "educator",
+      "title": "New Appointment Request",
+      "message": "Dev Patel has requested a 30-minute Performance Improvement appointment on Nov 9 at 11:00 AM.",
+      "type": "appointment",
+      "read": false,
+      "createdAt": "2026-10-31T20:15:00.000Z",
+      "link": "/dashboard/educator/appointments"
+    },
+    {
+      "id": "notif-5",
+      "recipientId": "user-adm-1",
+      "recipientRole": "admin",
+      "title": "Disengagement Alert",
+      "message": "AI Disengagement Monitor flagged 1 student (Dev Patel) under \"High Concern\" requiring academic advisor outreach.",
+      "type": "alert",
+      "read": false,
+      "createdAt": "2026-10-31T18:05:00.000Z",
+      "link": "/dashboard/admin/ai-monitoring"
+    }
+  ],
+  "categories": [
+    {
+      "id": "cat-math",
+      "name": "Mathematics & Statistics",
+      "description": "Calculus, Linear Algebra, Probability, Differential Equations, and Discrete Mathematics.",
+      "subjects": [
+        "Multivariable Calculus",
+        "Differential Equations",
+        "Linear Algebra",
+        "Discrete Math",
+        "Mathematical Statistics"
+      ],
+      "totalStudents": 312,
+      "totalEducators": 8
+    },
+    {
+      "id": "cat-cs",
+      "name": "Computer Science & Engineering",
+      "description": "Algorithms, Data Structures, Computer Architecture, Systems Programming, and Machine Learning.",
+      "subjects": [
+        "Algorithms & Complexity",
+        "Data Structures",
+        "Computer Systems",
+        "Distributed Systems",
+        "Web Engineering"
+      ],
+      "totalStudents": 450,
+      "totalEducators": 12
+    },
+    {
+      "id": "cat-phys",
+      "name": "Physics & Physical Sciences",
+      "description": "Classical Mechanics, Electromagnetism, Thermodynamics, Quantum Physics, and Statics.",
+      "subjects": [
+        "Classical Mechanics",
+        "Electromagnetism",
+        "Quantum Physics",
+        "Engineering Statics"
+      ],
+      "totalStudents": 220,
+      "totalEducators": 6
+    },
+    {
+      "id": "cat-strat",
+      "name": "Academic Strategy & Learning Science",
+      "description": "Personalized study planning, exam anxiety mitigation, executive dysfunction support, and pacing.",
+      "subjects": [
+        "Study Planning",
+        "Learning Difficulties Support",
+        "Exam Coaching",
+        "Time Management"
+      ],
+      "totalStudents": 185,
+      "totalEducators": 5
+    }
+  ]
+}
